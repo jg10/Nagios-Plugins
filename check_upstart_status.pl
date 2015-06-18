@@ -56,7 +56,7 @@ my $goal;
 my $state;
 
 #Run command and get result
-my $cmd = "status $jobName";
+my $cmd = "service $jobName status";
 $retval = `$cmd`;
 
 #Get return code
