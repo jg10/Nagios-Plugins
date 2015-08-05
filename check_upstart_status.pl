@@ -30,8 +30,10 @@
 #configurable options:
 my $debug = 0;
 
-# No changes below, unless you want to change exit codes
+# Set your environment here, either /usr/lib/ or /usr/lib64
 use lib "/usr/lib/nagios/plugins";
+
+# No changes below, unless you want to change exit codes
 use Getopt::Std;
 use strict;
 use warnings;
